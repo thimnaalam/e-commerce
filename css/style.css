@@ -7,7 +7,15 @@
    
 }
 
-.p1,p2,p3{
+
+
+.paragraph{
+    font-size: large;
+    color:white;
+    font-style: oblique;
+    
+}
+.p1{
     color:white;
 }
 .image-container {
@@ -33,17 +41,25 @@ li{
     display: inline;
     color: black;
     
+    
  
 }
 
 h1{
-    color: black;
+    color:white;
+    text-align: center;
     
 }
 h2{
+    color: white;
+    text-align: center;
+
+}
+h3{
     font-style: italic;
     color:white;
     text-align: center;
+    font-size: x-large;
     
 }
  h4{
@@ -53,12 +69,12 @@ h2{
 h3{
     color: white;
     font-style: italic;
-    font-size: 30px;
+    font-size: 20px;
 }
 BODY{
     display: grid;
     grid-template-rows: auto 100vw auto;
-    background-image:url(https://i.postimg.cc/0QH8S4M8/images.jpg);
+    background-color: black;
 
 }
 
@@ -85,13 +101,20 @@ targeting a range: 300px <= width <= 900px
     }
 }
 
-
-footer, header {
-    background-image: url(https://i.postimg.cc/KvkkvPkX/download-7.jpg);
+header{
+    background-image: url(https://i.postimg.cc/vTcwFR7p/Stunning-Ma-Xhosa-Design.png);
     position: sticky;
     padding: 5px;
-    width: auto;
-    height:100px
-    
+    height: 200px;
 
+}
+body{
+    display: grid;
+}
+footer{
+    color: white;
+    padding: 5px;
+    width: auto;
+    height:80px;
+   
 }
